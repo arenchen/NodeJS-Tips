@@ -23,11 +23,7 @@ echo $'export NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm
 
 ## Install node.js with NVM
 ```shell
-nvm install node
-nvm use node
-```
-
-## Install io.js
-```shell
-nvm install iojs
+# Install LTS
+nvm install --lts
+nvm alias default lts/*
 ```
