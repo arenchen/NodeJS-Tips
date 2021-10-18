@@ -6,7 +6,7 @@ sudo apt-get install -y build-essential libssl-dev libreadline-dev zlib1g-dev
 
 ## Install NVM
 ```shell
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.39.0/install.sh | bash
 ```
 
 The script clones the nvm repository to \~/.nvm and adds the source line to your profile  
